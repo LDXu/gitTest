@@ -31,6 +31,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    {
+        NSMutableArray *ar = [NSMutableArray new];
+    }
     // Do any additional setup after loading the view, typically from a nib.
     
     [self.view addSubview:self.tableView];
